@@ -4,8 +4,13 @@ function solveRect (l,b){
         console.log("rectangle dimension should be greater than zero");
     }
     else{
-        console.log("The perimeter of the rectangle is " + rect.perimeter(l, b));
-        console.log("The area of the rectangle is " + rect.area(l, b));
+       rect(l,b, (err, rectangle)=> {
+           if(err){console.log("Error" + err);}
+           else {
+             console.log("area is " + rectangle.area());  
+             console.log("perimeter is " + rectangle.perimeter());  
+           }
+       })
     }
 }
 solveRect(-2,3);
