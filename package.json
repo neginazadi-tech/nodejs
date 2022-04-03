@@ -1,0 +1,20 @@
+{
+  "name": "node-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rectangle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neginazadi-tech/nodejs.git"
+  },
+  "author": "Negin Azadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neginazadi-tech/nodejs/issues"
+  },
+  "homepage": "https://github.com/neginazadi-tech/nodejs#readme"
+}
